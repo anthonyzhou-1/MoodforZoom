@@ -13,6 +13,7 @@ after_id = None
 height = 200
 width = 500
 offset = 100
+arduino = serial.Serial('COM4', 9600, timeout=.1)
 
 #constants for bar graph
 emotions = ["anger", "joy", "surprise", "sorrow", "neutral"]
